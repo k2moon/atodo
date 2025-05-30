@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+frontend/next-app/.pnp
+frontend/next-app/.pnp.*
+frontend/next-app/.yarn/*
+frontend/next-app/!.yarn/patches
+frontend/next-app/!.yarn/plugins
+frontend/next-app/!.yarn/releases
+frontend/next-app/!.yarn/versions
+
+# testing
+frontend/next-app/coverage
+
+# next.js
+frontend/next-app/.next/
+frontend/next-app/out/
+
+# production
+frontend/next-app/build
+
+# misc
+frontend/next-app/.DS_Store
+frontend/next-app/*.pem
+
+# debug
+frontend/next-app/npm-debug.log*
+frontend/next-app/yarn-debug.log*
+frontend/next-app/yarn-error.log*
+frontend/next-app/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+frontend/next-app/.env*
+
+# vercel
+frontend/next-app/.vercel
+
+# typescript
+frontend/next-app/*.tsbuildinfo
+frontend/next-app/next-env.d.ts
+
+# package-lock.json
+package-lock.json
+
+# backend
+__pycache__/
+migrations/
